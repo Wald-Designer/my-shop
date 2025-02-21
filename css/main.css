@@ -249,14 +249,12 @@ nav a.accent-link{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  justify-items: center;
 }
 .name-product{
   width: 95%;
   height: auto;
   color: #f0f0f0;
-  display: flex;
-  margin: 17px 0 17px 0;
+  margin: 17px auto;
   letter-spacing: 1.5px;
   font-size: 27px;
   font-family: 'Segoe UI';
@@ -265,7 +263,7 @@ nav a.accent-link{
 .category{
   width: 95%;
   height: auto;
-  margin: 0 0 5px 0;
+  margin: 17px auto;
   padding: 0;
   font-size: 13px;
   letter-spacing: 1.4px;
@@ -274,7 +272,7 @@ nav a.accent-link{
   width: 95%;
   height: auto;
   font-size: 13px;
-  margin: 0px;
+  margin: 17px auto;
   font-weight: 400;
   color: #c9c9c9;
   letter-spacing: 1.4px;
@@ -283,7 +281,7 @@ nav a.accent-link{
   width: 95%;
   height: auto;
   text-align: left;
-  margin: 17px 0 18px 0;
+  margin: 17px auto;
   font-family: 'Segoe UI';
   color: #f0f0f0;
   font-size: 27px;
