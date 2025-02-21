@@ -294,7 +294,7 @@ nav a.accent-link{
 *! ///////////////////////////////////////////////////////////////////////////////
 **/
 buttom{
-  width: auto;
+  width: 100%;
   height: auto;
   border: 0;
   color: #fff;
@@ -310,11 +310,11 @@ buttom{
   padding: 4px;
   cursor: pointer;
   transition: .3s;
-  align-content: center;
-  justify-items: center;
 }
 
-buttom .open-buy {   
+buttom .open-buy {
+  width: auto;
+  align-content: center;   
   background-color: #0b0d15;
   padding: 16px 24px;
   border-radius: 6px;
