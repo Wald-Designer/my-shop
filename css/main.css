@@ -341,8 +341,6 @@ button:active{
 .content{
   width: auto;
   height: auto:
-  align-content: center;
-  justify-items: center;
 }
 
 .card{
