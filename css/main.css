@@ -349,21 +349,22 @@ button:active{
 */
 
 .content{
-  width: auto;
-  height: auto:
-  align-content: center;
-  justify-items: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .card{
   width: 95%;
-  margin-top: 17px;
-  margin-bottom: 20px;
-  padding: 1.3em;
+  margin: 30px auto;
+  padding: 1.3em;;
   background: #1c1f2b;
-  text-align: center;
   border-radius: 10px;
   position: relative;
+  box-sizing: border-box;
 }
 .title-card{
   color: #fff;
