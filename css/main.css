@@ -5,9 +5,9 @@
   --accent-color: #0071FF;
   --text-color: #c9c9c9;
 }
-/*
-    Estilos generales para que las etiquetas no contengan propiedades
-    que nos estorben y en todos los navegadores se vean correctamente
+/**
+*?    Estilos generales para que las etiquetas no contengan propiedades
+*?    que nos estorben y en todos los navegadores se vean correctamente
 */
 *{
   margin: 0;
@@ -106,6 +106,13 @@ nav a.accent-link{
 }
 
 
+/**
+*! ///////////////////////////////////////////////////////////////////////////////
+*? //////   MEDIA QUERIES | MEDIA QUERIES | MEDIA QUERIES | MEDIA QUERIES  ///////
+*! ///////////////////////////////////////////////////////////////////////////////
+**/
+
+
 @media screen and (max-width: 700px){
   #open-sidebar-button, #close-sidebar-button{
     display: block;
@@ -155,10 +162,10 @@ nav a.accent-link{
     color:rgb(255, 0, 170);
     letter-spacing: 2px;
   }
-
-  /*///////////////////////////////////////////////////////*/
 /**
-*!  CAROUSEL con imagenes   //////    CAROUSEL con imagenes   //////
+*!  ////////////////////////////////////////////////////////////////
+*?  CAROUSEL con imagenes   //////    CAROUSEL con imagenes   //////
+*!  ////////////////////////////////////////////////////////////////
 */
 .container-slider{
   width: 100%;
@@ -200,11 +207,11 @@ nav a.accent-link{
   object-fit: cover;
   border-radius: 15px;
 }
-
 /**
-*?  BUTTON LEFT-RIGHT   ////////////  BUTTON LEFT-RIGHT   ////////////
+*!  /////////////////////////////////////////////////////////////////
+*?  BUTTON LEFT-RIGHT   ////////////  BUTTON LEFT-RIGHT   ///////////
+*!  /////////////////////////////////////////////////////////////////
 */
-
 .btn-left,
 .btn-right {
   display: flex;
@@ -281,8 +288,14 @@ nav a.accent-link{
   font-weight: 700;
   letter-spacing: 2px;
 }
-
+/**
+*! ///////////////////////////////////////////////////////////////////////////////
+*? //////   BOTON COMPRAR | BOTON COMPRAR | BOTON COMPRAR | BOTON COMPRAR  ///////
+*! ///////////////////////////////////////////////////////////////////////////////
+**/
 buttom{
+  width: auto;
+  height: auto;
   border: 0;
   color: #fff;
   background-image: linear-gradient(
@@ -320,16 +333,15 @@ button:active{
 }
 
 /**
-*!  TARGETA DE PRESENTACION   //////////    TARGETA DE PRESENTACION   //////////
-**  FONDO ANIMADO!!!
+*! /////////////////////////////////////////////////
+*? //// TARJETA DE PRESENTACIÓN + FONDO ANIMADO ////
+*! /////////////////////////////////////////////////
 */
 
-
 .content{
-  width: 100%;
+  width: auto;
   height: auto:
-  margin: 0;
-  padding: 0;
+  align-content: center;
   justify-items: center;
 }
 
@@ -344,8 +356,8 @@ button:active{
   position: relative;
 }
 .title-card{
-  color: white;
-  text-align: center;
+  color: #fff;
+  text-align: left;
   letter-spacing: 3px;
 }
 .text-card{    
