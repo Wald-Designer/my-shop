@@ -293,8 +293,17 @@ nav a.accent-link{
 *? //////   BOTON COMPRAR | BOTON COMPRAR | BOTON COMPRAR | BOTON COMPRAR  ///////
 *! ///////////////////////////////////////////////////////////////////////////////
 **/
-buttom{
+.buy{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   width: 100%;
+  height: auto;
+  align-content: center;
+  justify-items: center;
+}
+buttom{
+  width: auto;
   height: auto;
   border: 0;
   color: #fff;
