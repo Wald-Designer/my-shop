@@ -246,15 +246,16 @@ nav a.accent-link{
 .info-products{
   width: 100%;
   height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   justify-items: center;
-  zoom: none;
 }
 .name-product{
   width: 95%;
   height: auto;
   color: #f0f0f0;
   display: flex;
-  text-align: left;
   margin: 17px 0 17px 0;
   letter-spacing: 1.5px;
   font-size: 27px;
@@ -273,7 +274,6 @@ nav a.accent-link{
   width: 95%;
   height: auto;
   font-size: 13px;
-  text-align: left;
   margin: 0px;
   font-weight: 400;
   color: #c9c9c9;
