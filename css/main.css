@@ -245,16 +245,16 @@ nav a.accent-link{
 
 .info-products{
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   box-sizing: border-box;
 }
 .name-product{
   width: 95%;
   height: auto;
   color: #f0f0f0;
-  margin: 17px auto;
+  margin: 12px auto;
   letter-spacing: 1.5px;
   font-size: 27px;
   font-family: 'Segoe UI';
